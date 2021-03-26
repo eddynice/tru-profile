@@ -94,7 +94,8 @@ margin-right:24px;
     return (
         
         <Nav>
-            <Logo src={logo} alt="logo"/>
+            <Link to="/timeline">
+            <Logo src={logo} alt="logo"  /></Link>
             <MenuBars onClick={toggle}/>
                 <NavMenu>
                 

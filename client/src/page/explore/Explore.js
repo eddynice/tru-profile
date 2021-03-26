@@ -26,13 +26,13 @@ export default function Explore() {
      
       <main>
       <div className={style.header}>
-            <h1>tru pics</h1>
+            <h1>Tru Pics</h1>
         </div>
 
         {media === null ? (
                       <div className={style.load}>
-                        <img src={Osa} alt="LOADING" style={{width:200, height:200, textAlign:'center'}}/>
-                        <h3>Loading....</h3></div>
+                        <img src={Osa} alt="LOADING" />
+                        <h3 style={{textAlign:'center'}}>Loading....</h3></div>
                     ):(
 
 <div className={style.grid}> 

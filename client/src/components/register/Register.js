@@ -240,7 +240,7 @@ export default class Register extends Component {
       </div> */}
 <p className="text-center"> OR </p>
 <div className="social-auth-links text-center">
-      <Link className="text-center btn btn-block btn-primary " to="/">I  HAVE AN ACCOUNT ALREADY</Link>
+      <Link className="text-center btn btn-block  " to="/">I  HAVE AN ACCOUNT ALREADY</Link>
       </div>
     </div>
     {/* /.form-box */}
