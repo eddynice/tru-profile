@@ -1,0 +1,23 @@
+{
+  "name": "pro-profile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddynice/tru-profile.git"
+  },
+  "keywords": [
+    "check",
+    "out"
+  ],
+  "author": "osazee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddynice/tru-profile/issues"
+  },
+  "homepage": "https://github.com/eddynice/tru-profile#readme",
+  "description": ""
+}
