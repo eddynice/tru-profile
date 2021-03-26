@@ -80,7 +80,7 @@ export default function Timeline() {
             <i className="fas fa-envelope bg-black" />
             <div className="timeline-item">
               <span className="time"><i className="fas fa-clock" />{item.time}</span>
-              <h5 className="timeline-header">{item.name} makes new contribution</h5>
+              <h5 className="timeline-header">{item.name} Writes New Article</h5>
               <div className="timeline-body">
               <h3 className="text-center">{item.topic}</h3>
               <ReadMoreReact text={item.comment}
