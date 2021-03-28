@@ -84,7 +84,7 @@ export default class Register extends Component {
                 swal("success", res.data.message, "success")
                 .then(value =>{
                     setTimeout(() => {
-                        history.push("/timeline")
+                        history.push("/")
                     }, 2000);
                    
                 });
