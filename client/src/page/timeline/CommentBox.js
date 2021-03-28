@@ -7,7 +7,7 @@ export default function Daa({handleChanges, handleSubmit,setInput,showSuccess,in
 <div className="col-md-12">
 <div className="card card-danger card-outline">
 <div className="card-header">
-  <h3 className="card-title">Compose New Message</h3>
+  <h3 className="card-title">Write New Article</h3>
 </div>
 {/* /.card-header */}
 

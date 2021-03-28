@@ -69,7 +69,7 @@ const SecuredRoute = ({component:Component, ...rest})=>(
         } ).then(value=>{
             switch(value){
                 case "sure":
-                    swal("signout successfully", "success").then(val =>{
+                    swal("sign out successfully", "success").then(val =>{
                         localStorage.removeItem("TOKEN_KEY");
                        return history.push("/")
                      
