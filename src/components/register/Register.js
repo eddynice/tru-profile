@@ -31,6 +31,9 @@ const validPhonePrefix = [
   '0818',
   '0909',
   '0804',
+  '+34',
+  '+44',
+  '+'
 ];
 
 
@@ -63,7 +66,7 @@ const signupSchema = Yup.object().shape({
       }
     )
     .min(11, 'Phone must be 11 digits')
-    .max(11, 'Phone must be 11 digits'),
+    .max(16, 'Phone must be 15 digits'),
 
 })
   
@@ -154,7 +157,7 @@ export default class Register extends Component {
                     value={values.confirm_password}
                     style={{width:"100%"}}
                     placeholder="confirm_password"
-                    name="confirm_password"
+                      name="confirm_password"
                    
                     className={errors.confirm_password && touched.confirm_password ? "form-control is-invalid" : "form-control"}
                     />
