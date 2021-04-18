@@ -66,7 +66,7 @@ const signupSchema = Yup.object().shape({
       }
     )
     .min(11, 'Phone must be 11 digits')
-    .max(15, 'Phone must be 15 digits'),
+    .max(16, 'Phone must be 15 digits'),
 
 })
   
